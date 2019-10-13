@@ -13,8 +13,8 @@ app.post("/add_car",(req,res,next)=>{
 })
 
 
-// fliter according to rent, capacity, date and avaibility
-app.get("/fliter",(req,res,next)=>{
+// filter according to rent, capacity, date and avaibility
+app.get("/filter",(req,res,next)=>{
 
   console.log(req.query)
   
